@@ -1,1 +1,306 @@
-esse site é de cilios da paria eugenia
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maria Eugênia | Lash Designer</title>
+
+    <meta name="description" content="Maria Eugênia Lash Designer em Florianópolis. Realce sua beleza com modelos exclusivos de extensão de cílios.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+
+            <a href="#inicio" class="logo-link">
+                <img src="./img/logo.png2.jpeg" alt="Maria Eugênia Lash Designer" class="logo">
+            </a>
+
+            <nav class="nav">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#valores">Valores</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <a href="#agendamento" class="button button-header">
+                Agendar horário!
+            </a>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="eyebrow">LASH DESIGNER EM FLORIANÓPOLIS</p>
+
+                    <h1>
+                        Seu olhar merece
+                        <span>um toque especial.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Realce sua beleza com extensão de cílios personalizada,
+                        conforto e acabamento impecável.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#agendamento" class="button">
+                            Agende seu horário
+                        </a>
+
+                        <a href="#servicos" class="button button-outline">
+                            Ver serviços
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <div class="card-decoration"></div>
+                    <div class="lash-symbol">✦</div>
+                    <p>Beleza, delicadeza<br>e autoestima.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="sobre" class="section about">
+            <div class="container about-content">
+
+                <div class="about-image">
+                    <div class="about-circle"></div>
+                    <div class="eye-icon">♡</div>
+                </div>
+
+                <div class="about-text">
+                    <p class="eyebrow">SOBRE O ESPAÇO</p>
+
+                    <h2>Mais que cílios,<br>uma experiência.</h2>
+
+                    <p>
+                        Cada atendimento é realizado com cuidado, carinho e
+                        atenção aos detalhes. Meu objetivo é valorizar o seu
+                        olhar e proporcionar um momento especial para você.
+                    </p>
+
+                    <p>
+                        Trabalho com técnicas modernas e modelos personalizados,
+                        respeitando o formato dos seus olhos e o resultado que
+                        você deseja.
+                    </p>
+
+                    <a href="#contato" class="text-link">
+                        Conheça o espaço →
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="servicos" class="section services">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">MODELOS DE CÍLIOS</p>
+                    <h2>Escolha o seu estilo</h2>
+                    <p>
+                        Encontre o modelo ideal para destacar ainda mais
+                        a beleza do seu olhar.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <div class="service-number">01</div>
+                        <h3>Egípicio</h3>
+                        <p>
+                           Um olhar marcante, sofisticado e cheio de personalidade.
+                        </p>
+                        <span class="service-time">Duração: até 2h30</span>
+                    </article>
+
+                    <article class="service-card featured">
+                        <div class="service-number">02</div>
+                        <h3>Volume Brasileiro</h3>
+                        <p>
+                            Mais preenchimento e definição, mantendo leveza
+                            e conforto para o dia a dia.
+                        </p>
+                        <span class="service-time">Duração: até 2h30</span>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-number">03</div>
+                        <h3>Fox Eyes</h3>
+                        <p>
+                            Um olhar alongado, marcante e sofisticado, com
+                            efeito poderoso no canto externo.
+                        </p>
+                        <span class="service-time">Duração: até 2h30</span>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-number">04</div>
+                        <h3>Manutenção</h3>
+                        <p>
+                            Renovação dos fios para manter seus cílios sempre
+                            bonitos, alinhados e bem preenchidos.
+                        </p>
+                        <span class="service-time">A partir de 15/20 dias</span>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="valores" class="section prices">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">INVESTIMENTO</p>
+                    <h2>Valores dos serviços</h2>
+                    <p>
+                        Escolha o procedimento que mais combina com você.
+                    </p>
+                </div>
+
+                <div class="price-table">
+
+                    <div class="price-item">
+                        <div>
+                            <h3>Volume Egípicio</h3>
+                            <p>Aplicação completa</p>
+                        </div>
+                        <strong>R$ 140</strong>
+                    </div>
+
+                    <div class="price-item">
+                        <div>
+                            <h3>Volume Brasileiro</h3>
+                            <p>Aplicação completa</p>
+                        </div>
+                        <strong>R$ 100</strong>
+                    </div>
+
+                    <div class="price-item">
+                        <div>
+                            <h3>Efeito Fox Eyes</h3>
+                            <p>Aplicação completa</p>
+                        </div>
+                        <strong>R$ 150</strong>
+                    </div>
+
+                    <div class="price-item">
+                        <div>
+                            <h3>Manutenção</h3>
+                            <p>Consulte o período
+                                e modelo
+                            </p>
+                        </div>
+                        <strong>A partir de R$ 80</strong>
+                    </div>
+
+                </div>
+
+                <p class="price-note">
+                    Os valores podem variar conforme a técnica e a quantidade
+                    de fios necessária.
+                </p>
+
+            </div>
+        </section>
+
+        <section id="agendamento" class="booking">
+            <div class="container booking-content">
+                <div>
+                    <p class="eyebrow">AGENDE SEU HORÁRIO</p>
+                    <h2>Pronta para transformar o seu olhar?</h2>
+                    <p>
+                        Entre em contato pelo WhatsApp e escolha o melhor
+                        horário para o seu atendimento.
+                    </p>
+                </div>
+
+           
+                <a href="https://wa.me/5548984685738" target="_blank" class="button button-light">
+                    Falar pelo WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <section id="contato" class="section contact">
+            <div class="container contact-content">
+
+                <div class="section-heading contact-heading">
+                    <p class="eyebrow">FALE COMIGO</p>
+                    <h2>Será um prazer atender você.</h2>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-card">
+                        <span class="contact-icon">⌖</span>
+                        <h3>Endereço</h3>
+                        <p>
+                            Servidão Antônia Castro Garcia, 17B<br>
+                            Florianópolis - SC
+                        </p>
+                    </div>
+
+                    <div class="contact-card">
+                        <span class="contact-icon">☏</span>
+                        <h3>WhatsApp</h3>
+                        
+                        <a href="https://wa.me/5548984685738" target="_blank">
+                            (48) 98468-5738
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <span class="contact-icon">@</span>
+                        <h3>Instagram</h3>
+            
+                        <a href="https://www.instagram.com/mariaeugenia_lash/" target="_blank">
+                            @mariaeugenia_lash
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+        
+
+            <p>
+                © 2024 Maria Eugênia Lash Designer. Todos os direitos reservados.
+            </p>
+
+            <a href="#inicio">Voltar ao topo ↑</a>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5548984685738" target="_blank" class="whatsapp-button" aria-label="Falar pelo WhatsApp">
+        ☏
+    </a>
+
+</body>
+</html>
